@@ -1,0 +1,36 @@
+# Qt
+*.pro.user
+*.pro.user.*
+*.user
+*.user.*
+Makefile
+*.o
+*.so
+*.a
+moc_*.cpp
+moc_*.h
+ui_*.h
+*.moc
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.debug
+*.release
+
+# Build directories
+build-*/
+debug/
+release/
+
+# macOS
+.DS_Store
+*.app
+
+# CMake
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
